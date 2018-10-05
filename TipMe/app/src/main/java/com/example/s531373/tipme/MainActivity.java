@@ -1,6 +1,7 @@
 package com.example.s531373.tipme;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -16,6 +17,21 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Button button=(Button)findViewById(R.id.bttippercent2);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            cherukur();
+            }
+        });
+
+        };
+    public void cherukur(){
+        Intent intent= new Intent(this,Sample.class);
+
+        startActivity(intent);
+
+
     }
     public  void reset(View v){
         TextView t = findViewById(R.id.tv2);
