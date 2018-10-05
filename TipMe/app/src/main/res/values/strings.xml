@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TipMe</string>
+    <string name="list">
+        <ol>User Guide</ol>\n
+        <ol>1. Enter the Amount.</ol>\n
+        <ol>2. Choose the Tip %.</ol>\n
+        <ol>3. You will find the Total and Tip amount below.</ol>\n
+        <ol>4. Choose the purple button to calculate custom % for tip.</ol>\n
+        <ol>5. Choose the blue button to comput percentage of your contributed tip.</ol>\n
+        <ol>6. Use Reset button to reset the tip and total.</ol>
+    </string>
+</resources>
